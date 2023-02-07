@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Loan Calculator</h1>
+            <div class="error-container">
+                <p class="error-loan"> iiiiii</p> <br>
+                <p class="error-inter"> lo</p> <br>
+                <p class="error-months"> iiiiii</p> <br>
+            </div>
+            <form action="">
+                <div class="loan">
+                    <p>Loan amount</p>
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input type="number" aria-label="number">
+                </div>
+                <div class="interest">
+                    <p>Interest Rate</p>
+                    <i class="fa-solid fa-percent"></i>
+                    <input type="number" aria-label="number">
+                </div>
+                <div class="months">
+                    <p>Months to pay</p>
+                    <i class="fa-regular fa-calendar-days"></i>   
+                    <input type="number" aria-label="number">
+                </div>
+
+                <button type="submit" class="submit">Submit</button>
+
+            </form>
+ 
+            <p class ='result'></p>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
